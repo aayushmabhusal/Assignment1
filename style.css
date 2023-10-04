@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  color: black;
+  height: 100vh;
+}
+
+header {
+  padding: 24px;
+}
+.intro {
+  font-size: 22px;
+}
+h1 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
+}
+
+section {
+  padding: 24px;
+  position: relative;
+  bottom: 20px;
+}
+
+table {
+  box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  height: 30vh;
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+  cursor: pointer;
+}
+
+th {
+  background-color: #dcdcdc32;
+  color: black;
+}
+
+td {
+  font-size: 16px;
+}
+
+table tr {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+}
+
+table tr:nth-child(even) {
+  color: black;
+}
+
+table tr:nth-child(odd):not(:first-child) {
+  background-color: #336699;
+  color: white;
+}
+
+table tr:nth-child(even) a {
+  text-decoration: none;
+  color: black;
+}
+
+table tr:nth-child(odd) a {
+  text-decoration: none;
+  color: white;
+}
+
+table tr:nth-child(even) a:hover {
+  text-decoration: underline;
+  color: rgb(0, 255, 76);
+}
+
+table tr:nth-child(odd) a:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 30);
+}
